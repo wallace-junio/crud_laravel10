@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Index</title>
+    <title>Gestão</title>
 
-    <link href="{{ asset('asset/css/bootstrap.min.css') }}" rel="stylesheet" >  
+    <link href="{{ asset('asset/css/bootstrap.min.css') }}" rel="stylesheet" >
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="{{ asset('asset/img/favicons/apple-touch-icon.png') }}" sizes="180x180">
@@ -37,12 +37,12 @@
       }
     </style>
 
-    
+
     <!-- Custom styles for this template -->
     <link href="dashboard.css" rel="stylesheet">
   </head>
   <body>
-    
+
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
   <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Sistema de Gestão</a>
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,11 +58,14 @@
 
 <div class="container-fluid">
   <div class="row">
-    
-    <!-- importando menu lateral navegação -->   
-    @include('componentes.navegacao') 
+
+    <!-- importando menu lateral navegação -->
+    @include('componentes.navegacao')
+
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      @yield('content')
+
+       @yield('content')
+
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
       </div>
