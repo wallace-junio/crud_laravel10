@@ -16,8 +16,8 @@ class ProdutosSeeder extends Seeder
         //
         Produto::create(
             [
-                'nome' => 'Marcarrão Enlatado ',
-                'valor' => '10.50'
+                'nome' => 'Arroz',
+                'valor' => '28.99'
             ]
             );
     }
