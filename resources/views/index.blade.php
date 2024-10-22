@@ -35,6 +35,12 @@
           font-size: 3.5rem;
         }
       }
+
+      /* Mensagem de alerta produto nao encontrado*/
+      .fade-out {
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
     </style>
 
 
@@ -90,9 +96,15 @@
     </main>
   </div>
 </div>
+<!-- include jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
+<script src="{{ asset('asset/js/alertaMensagens.js') }}" ></script>
 <script src="{{ asset('asset/js/bootstrap.bundle.min.js') }}" ></script>
 <script src="{{ asset('asset/js/feather.min.js') }}" >
 </script><script src="{{ asset('asset/js/dashboard.js') }}"></script>
-  </body>
+
+<!-- include BlockUI -->
+<script src="http://path/to/your/copy/of/jquery.blockUI.js"></script>
+</body>
 </html>
